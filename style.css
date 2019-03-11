@@ -1,0 +1,278 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+	margin: 0, auto;
+}
+.container{
+    width: 1280px; 
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header{
+	height: 323px;
+	background-color: #445161;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#kartinka-head {
+	padding-right: 50px;
+	padding-top: 50px;
+}
+header ul {
+	font-family: Arial;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 35px;
+	padding-left: 88px;
+	list-style-image: url(img/galochka.png);
+}
+p {
+	font-family: Arial;
+	font-size: 16px;
+	color: #333333;
+	padding-left: 50px;
+}
+h1 {
+	font-family: Arial;
+	font-size: 59px;
+	color: #ffffff;
+	padding: 50px;
+	padding-bottom: 40px;
+}
+h2 {
+	font-family: Arial;
+	font-size: 30px;
+	text-align: center;
+	color: #445161;
+	padding: 50px;
+}
+#zagolovok-verh {
+	text-align: left;
+	padding-left: 50px;
+}
+#zagolovokNiz {
+	color: #ffffff;
+}
+.container1 {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#kartinka-about{
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.paragraph{
+	width: 60%;
+}
+.container2 {
+	background-color: #f5f5f5;
+	
+}
+summary {
+	outline: none;
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.spisok1 {
+	width: 40%;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.container3 {
+	background-color: #ffffff;
+	
+}
+h3 {
+	font-family: Arial;
+	font-size: 20px;
+	color: #445161;
+	padding: 10px;
+}
+.float {
+	float: left;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom:50px;
+	padding-right: 10px;
+}
+
+.container4 {
+	background-color: #f5f5f5;
+}
+.float1{
+	float: left;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom:50px;
+	padding-right: 10px;
+	width: 75px;
+}
+.italic {
+	background-color: #ebebeb;
+	font-style: italic;
+	line-height: 20px;
+	padding-right: 50px;
+}
+span {
+color: #989898;
+font-weight: bold;
+}
+
+.container5 {
+	background-color: #ffffff;
+}
+#flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+	padding-bottom: 50px;
+}
+.back{
+	display: block;
+	width: 300px;
+	border: solid 20px white;
+	background-color:#445161;
+	padding: 50px;
+	border-radius: 35px;
+	
+}
+.buy{
+	text-transform: uppercase;
+	display: block;
+	width: 260px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	color:#445161;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-family: Arial;
+  	font-size: 18px;
+  	font-weight: bold;
+	
+}
+ol {
+	font-family: Arial;
+  	font-size: 14px;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+h4 {
+	font-family: Arial;
+  	font-size: 24px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.money {
+	font-family: Arial;
+  	font-size: 40px;
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: #445161;
+	background-color: #FFFFFF;
+}
+.container6 {
+	background-color: #445161;
+	
+}
+form {
+	padding-right: 70px;
+}
+.wrapper-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.pole_vvoda {
+	display: block;
+	width: 500px;
+	height: 40px;
+	border-radius: 10px;
+	outline: none;
+	border: 0;
+}
+#pole_vvoda{
+	border-radius: 10px;
+	outline: none;
+	border: 0;
+}
+.btn {
+	text-transform: uppercase;
+	display: block;
+	width: 140px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	color:#445161;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-family: Arial;
+  	font-size: 18px;
+  	font-weight: bold;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border:0;
+}
+
+input::placeholder {
+	color: #445161;
+	font-family: Arial;
+  	font-size: 16px;
+}
+textarea::placeholder {
+	color: #445161;
+	font-family: Arial;
+  	font-size: 16px;
+}
+.kontakti {
+	font-family: Arial;
+  	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 50px;
+	list-style-type: none;
+}
+#vtoroy{
+	list-style-image: url("img/icq icon.png");
+}
+#tretiy{
+	list-style-image: url("img/email icon.png");
+}
+#perviy{
+	list-style-image: url("img/skype icon.png");
+}
+#chetire{
+	list-style-image: url("img/phone icon.png");
+}
+#twitter {
+	padding-left: -20px;
+}
+
+footer {
+	background-color: #f5f5f5;
+	height: 26px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 12px;
+}
+#foot {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
